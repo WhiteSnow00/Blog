@@ -16,13 +16,6 @@ export function PostCard(props: PostCardProps) {
       href={`/posts/${slug}`}
       className="flex flex-col gap-2 p-5 rounded-xl border-2 group border-neutral-800 hover:bg-neutral-800 transition"
     >
-      <Image
-        src={img!}
-        width={1280}
-        height={700}
-        className="h-[200px] object-cover grayscale group-hover:grayscale-0 transition"
-        alt={title}
-      />
       <h3 className="text-lg font-heading font-semibold text-white truncate">
         {title}
       </h3>

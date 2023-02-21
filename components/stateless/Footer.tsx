@@ -22,7 +22,7 @@ export function Footer() {
           <a
             href="https://twitter.com/irvanmalik48"
             className="bg-white bg-opacity-50 text-neutral-900 p-2 rounded-full block hover:bg-opacity-100 transition ease-out"
-            aria-label="icon-twitter"
+            aria-label="icon-facebook"
           >
             <TwitterIcon className="w-6" />
           </a>

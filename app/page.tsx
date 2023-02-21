@@ -92,13 +92,13 @@ export default function Page() {
         И где в них доброта? 
         </Marquee>
       </section>
-      <section className="py-12 lg:py-0 max-w-4xl mx-auto grid grid-cols-1 relative min-h-screen place-content-center">
+      <section className="max-w-4xl mx-auto grid grid-cols-1 relative min-h-screen place-content-center mt-12 md:mt-0">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-semibold text-white w-full">
-          You can check<span className="text-teal-300">R18</span> post{" "}
-          <span className="text-teal-300">here</span>.
+          And this is for posting <span className="text-teal-300">shitty post</span>{" "}
+          in Vietnamese or Eng.
         </h1>
         <h2 className="text-2xl mt-3 font-display text-white w-full">
-          Just only for posting R18
+          Feel free to check 
         </h2>
         <Posts sliced={true} />
         <div className="flex flex-row justify-end items-center">
@@ -115,13 +115,13 @@ export default function Page() {
           </Link>
         </div>
       </section>
-      <section className="max-w-4xl mx-auto grid grid-cols-1 relative min-h-screen place-content-center mt-12 md:mt-0">
+      <section className="py-12 lg:py-0 max-w-4xl mx-auto grid grid-cols-1 relative min-h-screen place-content-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-semibold text-white w-full">
-          I also regularly <span className="text-teal-300">make</span>{" "}
-          something.
+          You can check <span className="text-teal-300"> R18</span> post{" "}
+          <span className="text-teal-300">here</span>.
         </h1>
         <h2 className="text-2xl mt-3 font-display text-white w-full">
-          It's useful for me, so sure.
+          Just only for posting R18
         </h2>
         <Projects sliced={true} />
         <div className="flex flex-row justify-end items-center">
