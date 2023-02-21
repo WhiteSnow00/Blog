@@ -19,6 +19,6 @@ module.exports = withPWA(
     pwa: {
       dest: 'public',
     },
-    telemetry: false, // <-- Add telemetry here
+    telemetry: false, 
   })
 );
