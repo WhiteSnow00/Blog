@@ -58,10 +58,10 @@ export default function Page() {
         <picture>
           <source
             media="(min-width: 768px)"
-            srcSet="/misc/intro-hero.webp"
+            srcSet="/misc/Ayaya.webp"
             type="image/webp"
           />
-          <source srcSet="/misc/intro-hero-mobile.webp" type="image/webp" />
+          <source srcSet="/misc/ayaya_mobile.webp" type="image/webp" />
           <Image
             src={IntroHero}
             alt="lmao photos"
