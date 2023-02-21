@@ -6,7 +6,7 @@ import Image from "next/image";
 import Marquee from "c/Marquee";
 import CheckFill from "c/CheckFill";
 import ArrowForwardFill from "c/ArrowForwardFill";
-import IntroHero from "p/misc/intro-hero.webp";
+import IntroHero from "p/misc/Ayaya.webp";
 
 export default function Page() {
   return (
