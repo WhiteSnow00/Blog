@@ -9,7 +9,6 @@ const { withPlaiceholder } = require("@plaiceholder/next");
 module.exports = withPWA(
   withPlaiceholder({
     reactStrictMode: true,
-    telemetry: false,
     compiler: {
       removeConsole: true,
     },
@@ -17,5 +16,9 @@ module.exports = withPWA(
       appDir: true,
     },
     productionBrowserSourceMaps: true,
+    pwa: {
+      dest: 'public',
+    },
+    telemetry: false, // <-- Add telemetry here
   })
 );
