@@ -9,6 +9,7 @@ const { withPlaiceholder } = require("@plaiceholder/next");
 module.exports = withPWA(
   withPlaiceholder({
     reactStrictMode: true,
+    telemetry: false,
     compiler: {
       removeConsole: true,
     },
