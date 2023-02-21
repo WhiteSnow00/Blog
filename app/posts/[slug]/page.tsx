@@ -7,7 +7,6 @@ import rehypePrism from "rehype-prism-plus";
 import rehypeSlug from "rehype-slug";
 import codeTitle from "u/rehypeCodeTitle";
 import { ArticleJsonLd } from "next-seo";
-import Comments from "c/Comments";
 import Script from "next/script";
 
 export default async function Page({ params }: { params: { slug: string } }) {
@@ -60,9 +59,6 @@ export default async function Page({ params }: { params: { slug: string } }) {
         data-ad-slot="3424870960"
       >
       </ins>
-      <section className="px-5">
-        <Comments />
-      </section>
       <ArticleJsonLd
         useAppDir={true}
         type="BlogPosting"

@@ -8,8 +8,6 @@ export function PostCard(props: PostCardProps) {
   const body = props.desc ?? "No description.";
   const date = props.date ?? "01/01/1970";
   const slug = props.slug ?? "#";
-  const gh = props.gh === "private" ? "Private" : "Public";
-  const img = props.screenshot ?? "/showcase/no-image.webp";
 
   return (
     <Link
