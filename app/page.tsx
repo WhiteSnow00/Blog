@@ -4,10 +4,8 @@ import Link from "next/link";
 import { AnimatedSVGBack } from "c/AnimatedSVGBG";
 import Image from "next/image";
 import Marquee from "c/Marquee";
-
 import CheckFill from "c/CheckFill";
 import ArrowForwardFill from "c/ArrowForwardFill";
-
 import IntroHero from "p/misc/intro-hero.webp";
 
 export default function Page() {
@@ -21,11 +19,11 @@ export default function Page() {
       />
       <section className="max-w-4xl min-h-screen place-content-center mx-auto grid grid-cols-1 relative">
         <h1 className="text-4xl text-center md:text-start md:text-5xl lg:text-7xl font-heading font-semibold text-white w-full">
-          Cope, seethe, mald, dilate, and{" "}
-          <span className="text-teal-300">repeat</span>.
+          Just a simple blog for posting shitty thing and{" "}
+          <span className="text-teal-300">AYAYA</span>.
         </h1>
         <h2 className="text-2xl mt-3 text-center md:text-start font-display text-white w-full">
-          Irvan Malik Azantha's personal blog.
+          [_Kanaria_] Blog Site.
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-start mt-7 gap-3">
           <a
@@ -36,21 +34,21 @@ export default function Page() {
               className="block p-2 rounded-full bg-neutral-900 fill-white mr-5"
               size="18px"
             />
-            I've coped enough, let me in
+            Start
           </a>
           <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             target="_blank"
             className="block w-fit px-7 py-2 text-lg text-white text-opacity-50 hover:text-opacity-100 transition ease-out rounded-full"
           >
-            Cry about it instead
+            Exit
           </a>
         </div>
       </section>
       <section>
         {/* prettier-ignore */}
-        <Marquee className="text-neutral-900 uppercase h-12 font-heading text-3xl font-bold bg-teal-300 tracking-wide" speed={15} direction="right" gradient gradientColor={[23, 23, 23]}>
-          . Never gonna give you up. Never gonna let you down. Never gonna run around and desert you. Never gonna make you cry. Never gonna say goodbye. Never gonna tell a lie and hurt you
+        <Marquee className="text-neutral-900 uppercase h-12 font-heading text-3xl font-bold bg-teal-300 tracking-wide" speed={25} direction="left" gradient gradientColor={[23, 23, 23]}>
+          .Đi theo ánh nắng chiều tàn Phía cuối dòng người Sao nơi đây chỉ còn mình anh Nếu có thể trở về thì anh sẽ chẳng buông lơi bàn tay của em
         </Marquee>
       </section>
       <section
@@ -72,43 +70,35 @@ export default function Page() {
           />
         </picture>
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-heading font-semibold mt-4 text-white w-full">
-          Little bit of <span className="text-teal-300">intro</span>.
+          Why this exist <span className="text-teal-300">Ayaya?</span>.
         </h1>
         <h2 className="text-2xl mt-3 font-display text-white w-full">
-          I'll let y'all know me first.
+          Because of the convenience
         </h2>
         <p className="text-neutral-300 mt-3">
           Hello, I'm{" "}
-          <strong className="text-teal-300">Irvan Malik Azantha</strong>. A
-          result-oriented programmer with 2 years of experience in creating and
-          maintaining web development projects. Highly ambitious and logical.
-          Very interested in open source technology and related project
-          developments. Skilled at web development and UI/UX designing.
+          <strong className="text-teal-300">[_Kanaria]</strong>. A weeb user, wanna to post R18 content and play game, like Osu, Arknights,Genshin Impact etc when I have free time 
         </p>
         <p className="text-teal-300 font-heading font-bold mt-3">
-          Yes, you can just scroll down. Don't be a lazy bum.
+          Rolldown and find what you need.
         </p>
       </section>
       <section>
         {/* prettier-ignore */}
-        <Marquee className="text-neutral-900 uppercase h-12 font-heading text-3xl font-bold bg-teal-300 tracking-wide" speed={15} direction="left" gradient gradientColor={[23, 23, 23]}>
-          . うぃーあーざじゃぱにーずごぶりん
-          . どぅゆぅはぶけいのたかとびおにごろし
-          . あいあむえぇとじゃぱにーずごぶりん
-          . あかあおきいろのおにずあんどもあ
-          . はいびびっとしゃとるーずぐりーんおに
-          . せくしーみでぃあむばいおれっとおに
-          . むらさきだいだいしゃくなげおに
-          . らららいえるかなとぅないひゃっきやぎょう
+        <Marquee className="text-neutral-900 uppercase h-12 font-heading text-3xl font-bold bg-teal-300 tracking-wide" speed={25} direction="left" gradient gradientColor={[23, 23, 23]}>
+        Свет фонарей гуляет по улице
+        Смотри же мне в глаза, обо всём я тебе расскажу
+        И колыбельную тебе спою, смотри же мне в глаза
+        И где в них доброта? 
         </Marquee>
       </section>
       <section className="py-12 lg:py-0 max-w-4xl mx-auto grid grid-cols-1 relative min-h-screen place-content-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-semibold text-white w-full">
-          I regularly <span className="text-teal-300">post</span> about{" "}
-          <span className="text-teal-300">something</span>.
+          You can check<span className="text-teal-300">R18</span> post{" "}
+          <span className="text-teal-300">here</span>.
         </h1>
         <h2 className="text-2xl mt-3 font-display text-white w-full">
-          Yes, you read that right.
+          Just only for posting R18
         </h2>
         <Posts sliced={true} />
         <div className="flex flex-row justify-end items-center">

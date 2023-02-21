@@ -1,6 +1,7 @@
 import { PostCard } from "../stateless/PostCard";
 import { PostCardProps } from "../../types/types";
 import { getSortedPostSlugs } from "u/posts";
+import Badge from "./Badge";
 
 export function Posts(props: { sliced?: boolean }) {
   const data = getSortedPostSlugs();
@@ -18,6 +19,9 @@ export function Posts(props: { sliced?: boolean }) {
                 slug={post.slug}
                 date={post.date}
                 desc={post.desc}
+                badge={
+                  <Badge url="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="My Badge" />
+                }
               />
             ))
         : data.map((post: PostCardProps) => (
@@ -28,6 +32,9 @@ export function Posts(props: { sliced?: boolean }) {
               slug={post.slug}
               date={post.date}
               desc={post.desc}
+              badge={
+                <Badge url="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="My Badge" />
+              }
             />
           ))}
     </section>
