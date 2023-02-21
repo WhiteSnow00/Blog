@@ -3,25 +3,23 @@ import { RealmPageProps } from "t/types";
 
 export function getProps(props: RealmPageProps): NextSeoProps {
   return {
-    titleTemplate: "Realm | %s",
+    titleTemplate: "[_Kanaria_] | %s",
     title: props.title,
     description: props.desc,
-    canonical: "https://www.irvanma.me",
+    canonical: "",
     openGraph: {
-      siteName: "Realm",
+      siteName: "[_Kanaria_]",
       type: "website",
       locale: "en",
-      url: "https://www.irvanma.me" + (props.path || "/"),
-      title: "Realm | " + props.title,
+      url: "",
+      title: "[_Kanaria_] | " + props.title,
       description: props.desc,
       images: [
         {
-          url:
-            "https://www.irvanma.me/api/og?title=" +
-            encodeURIComponent(props.title!),
+          url: "",
           width: 1200,
           height: 630,
-          alt: "Realm | " + props.title,
+          alt: "[_Kanaria_] | " + props.title,
         },
       ],
     },

@@ -130,7 +130,7 @@ export default function Page() {
             scroll={true}
             className="w-fit text-white text-opacity-70 hover:text-opacity-100 mt-3 group transition ease-out flex flex-row gap-5 justify-center items-center"
           >
-            Show more projects
+            Show more posts
             <ArrowForwardFill
               className="block bg-white opacity-70 group-hover:opacity-100 fill-neutral-900 p-1 rounded-full transition"
               size="18px"

@@ -25,8 +25,8 @@ export default function RootLayout({
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
-        <meta name="apple-mobile-web-app-title" content="The Realm" />
-        <meta name="application-name" content="The Realm" />
+        <meta name="apple-mobile-web-app-title" content="[_Kanaria_] Blog" />
+        <meta name="application-name" content="[_Kanaria_] Blog" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="msapplication-config" content="/site.webmanifest" />
         <link rel="manifest" href="/site.webmanifest" />

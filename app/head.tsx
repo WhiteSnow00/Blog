@@ -7,8 +7,8 @@ export default function Head() {
       useAppDir={true}
       {...indexFollow()}
       {...getProps({
-        title: "Landing",
-        desc: "IrvanMA's personal blog.",
+        title: "Ayaya",
+        desc: "[_Kanaria_] personal blog.",
       })}
     />
   );
