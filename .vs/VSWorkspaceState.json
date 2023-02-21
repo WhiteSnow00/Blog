@@ -1,16 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app\\(auth)",
-    "\\app\\(user)",
-    "\\app\\(user)\\edu",
+    "\\app",
+    "\\app\\posts\\[slug]",
+    "\\app\\projects",
+    "\\app\\projects\\[slug]",
     "\\components",
-    "\\components\\stateless",
     "\\posts",
-    "\\styles",
-    "\\types",
-    "\\utils"
+    "\\projects",
+    "\\public",
+    "\\public\\icons",
+    "\\public\\preview"
   ],
-  "SelectedNode": "\\posts\\please-no-dribbble-shit.mdx",
+  "SelectedNode": "\\public\\FacebookIcon.svg",
   "PreviewInSolutionExplorer": false
 }

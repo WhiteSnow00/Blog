@@ -80,7 +80,7 @@ export default function Page() {
           <strong className="text-teal-300">[_Kanaria]</strong>. A weeb user, wanna to post R18 content and play game, like Osu, Arknights,Genshin Impact etc when I have free time 
         </p>
         <p className="text-teal-300 font-heading font-bold mt-3">
-          Rolldown and find what you need.
+          Roll down and find what you need.
         </p>
       </section>
       <section>
