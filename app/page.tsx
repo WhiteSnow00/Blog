@@ -47,7 +47,7 @@ export default function Page() {
       </section>
       <section>
         {/* prettier-ignore */}
-        <Marquee className="text-neutral-900 uppercase h-12 font-heading text-3xl font-bold bg-teal-300 tracking-wide" speed={25} direction="left" gradient gradientColor={[23, 23, 23]}>
+        <Marquee className="text-neutral-900 uppercase h-12 font-heading text-3xl font-bold bg-teal-300 tracking-wide" speed={35} direction="left" gradient gradientColor={[23, 23, 23]}>
           .Đi theo ánh nắng chiều tàn Phía cuối dòng người Sao nơi đây chỉ còn mình anh Nếu có thể trở về thì anh sẽ chẳng buông lơi bàn tay của em
         </Marquee>
       </section>
@@ -85,7 +85,7 @@ export default function Page() {
       </section>
       <section>
         {/* prettier-ignore */}
-        <Marquee className="text-neutral-900 uppercase h-12 font-heading text-3xl font-bold bg-teal-300 tracking-wide" speed={25} direction="left" gradient gradientColor={[23, 23, 23]}>
+        <Marquee className="text-neutral-900 uppercase h-12 font-heading text-3xl font-bold bg-teal-300 tracking-wide" speed={35} direction="left" gradient gradientColor={[23, 23, 23]}>
         Свет фонарей гуляет по улице
         Смотри же мне в глаза, обо всём я тебе расскажу
         И колыбельную тебе спою, смотри же мне в глаза

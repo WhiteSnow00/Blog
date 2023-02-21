@@ -2,16 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\app",
+    "\\app\\(auth)\\login",
+    "\\app\\(user)",
+    "\\app\\about",
+    "\\app\\posts",
     "\\app\\posts\\[slug]",
-    "\\app\\projects",
-    "\\app\\projects\\[slug]",
     "\\components",
-    "\\posts",
-    "\\projects",
-    "\\public",
-    "\\public\\icons",
-    "\\public\\preview"
+    "\\components\\stateful",
+    "\\components\\stateless"
   ],
-  "SelectedNode": "\\public\\FacebookIcon.svg",
+  "SelectedNode": "\\app\\page.tsx",
   "PreviewInSolutionExplorer": false
 }

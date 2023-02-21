@@ -23,11 +23,6 @@ export function getProps(props: RealmPageProps): NextSeoProps {
         },
       ],
     },
-    twitter: {
-      handle: "@irvanmalik48",
-      site: "@irvanmalik48",
-      cardType: "summary_large_image",
-    },
   };
 }
 
